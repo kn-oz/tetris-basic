@@ -1,0 +1,32 @@
+* {
+    font-family: "Press Start 2P", cursive;
+}
+html, body {
+    min-height: 100vh;
+    background-color: rgb(34, 39, 53);
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: 320px 800px;
+}
+
+.right-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.game-board{
+    border: solid 2px;
+} 
+
+.game-button {
+    background-color: aqua;
+    font-size: 16px;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
