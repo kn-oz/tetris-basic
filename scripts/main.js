@@ -149,7 +149,7 @@ function resetGame() {
     account .level = 0;
     time.start = performance.now();
     time.elasped = 0;
-    level = LEVEL[0];
+    time.level = LEVEL[0];
 }
 
 
